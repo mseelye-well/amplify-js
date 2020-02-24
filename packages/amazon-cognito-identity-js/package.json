@@ -47,7 +47,7 @@
     "build:es": "cross-env BABEL_ENV=es babel src --out-dir es",
     "build:umd": "webpack",
     "build:clean:commonjs": "npm run clean && npm run build:commonjs",
-    "build": "npm run clean && npm run build:commonjs && npm run build:es && npm run build:umd",
+    "build": "npm run clean && npm run build:commonjs",
     "doc": "jsdoc src -d docs",
     "lint": "eslint src",
     "lint2": "eslint enhance-rn.js",
